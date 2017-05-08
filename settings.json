@@ -1,0 +1,46 @@
+{
+    "editor.tabSize": 2,
+    // "beautify.onSave": true,
+    // "beautify.onSaveIgnore": [
+    //    "**/*+(.|_|-)min.*"
+    //],
+    "files.eol": "\n",
+    // "editor.rulers": [80,120],
+    // "editor.lineNumbers": "on"
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+        /* Color of the indent marker for dark themes */
+    "indenticator.color.dark": "#888",
+    /* Color of the indent marker for light themes */
+    "indenticator.color.light": "#999",
+    /* Width of the indent marker in pixels */
+    "indenticator.width":1 ,
+    /* Line style of the indent marker (e.g. "solid", "dashed", "dotted", ...) */
+    "indenticator.style": "dashed",
+    /* Wether to displays the current indent depth on the statusbar */
+    "indenticator.showCurrentDepthInStatusBar": true,
+    "window.zoomLevel": 0,
+    "files.associations": {
+      // extension name : html
+    //   "*.ejs": "html"
+    //   "*.js": "php"
+    },
+    "workbench.editor.openPositioning": "last",
+    // "window.openFilesInNewWindow": "on",
+    // "window.openFoldersInNewWindow": "on",
+    // "workbench.editor.openPositioning": "left"
+    "emmet.syntaxProfiles": {
+      "javascript": "html"
+    },
+    "workbench.editor.enablePreview": false,
+    "editor.wordWrap": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "window.menuBarVisibility": "toggle",
+    "explorer.openEditors.visible": 0,
+    "editor.autoClosingBrackets": true,
+    "editor.minimap.enabled": true,
+    "vsicons.projectDetection.disableDetect": true
+    // "http.proxy": "http://proxy:80",
+    // "https.proxy": "http://proxy:80",
+    // "http.proxyStrictSSL": false
+  }

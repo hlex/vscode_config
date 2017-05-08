@@ -1,0 +1,85 @@
+{
+	/*
+	 // Place your snippets for JavaScript React here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"Print to console 2": {
+		"prefix": "lggi",
+		"body": [
+			"console.log('hello $1', $2);",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('hello $1', $2);",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Print to foreach javascript": {
+		"prefix": "foj",
+		"body": [
+			"for(let ${1:k} in ${2:object}) {",
+			"\t$3",
+			"}"
+		],
+		"description": "for(let k in object){...}"
+	},
+	"Print to redux action": {
+		"prefix": "rda",
+		"body": [
+			"const ${1:actionName} = ${2:props} => {",
+			"	return {",
+			"		type: '${3:type name}',",
+			"		payload: ${4:props},",
+			"	}",
+			"}"
+		],
+		"description": "action redux"
+	},
+	"Print to test": {
+		"prefix": "test",
+		"body": [
+			"describe('${1:Test name}', () => {",
+			"	it('${1:should}', () => {",
+			"		expect(${1}).to.equal(${1:actionName})",
+			"	})",
+			"})"
+		],
+		"description": "for(let k in object){...}"
+	},
+	"Print to import function": {
+		"prefix": "imf",
+		"body": [
+			"import ${1:{}} from '$2'"
+		],
+		"description": " import {} from '../..'"
+	},
+	"Print to import component": {
+		"prefix": "imc",
+		"body": [
+			"import $1 from '$2'"
+		],
+		"description": "import Component from '../..'"
+	},
+	"Print to require ": {
+		"prefix": "crq",
+		"body": [
+			"const $1 = require('$1')"
+		],
+		"description": "const ... = require('...')"
+	}
+}
