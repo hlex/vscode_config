@@ -15,11 +15,10 @@
     /* Width of the indent marker in pixels */
     "indenticator.width":1 ,
     /* Line style of the indent marker (e.g. "solid", "dashed", "dotted", ...) */
-    "indenticator.style": "solid",
-    "editor.detectIndentation": false,
+    "indenticator.style": "dashed",
     /* Wether to displays the current indent depth on the statusbar */
     "indenticator.showCurrentDepthInStatusBar": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "files.associations": {
       // extension name : html
     //   "*.ejs": "html"
@@ -30,16 +29,18 @@
     // "window.openFoldersInNewWindow": "on",
     // "workbench.editor.openPositioning": "left"
     "emmet.syntaxProfiles": {
-      "javascript": "html",
-      "javascript": "jsx"
+      "javascript": "html"
     },
     "workbench.editor.enablePreview": false,
     "editor.wordWrap": false,
     "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "window.menuBarVisibility": "toggle",
     "explorer.openEditors.visible": 0,
     "editor.autoClosingBrackets": true,
     "editor.minimap.enabled": true,
     "vsicons.projectDetection.disableDetect": true
+    // "http.proxy": "http://proxy:80",
+    // "https.proxy": "http://proxy:80",
+    // "http.proxyStrictSSL": false
   }
